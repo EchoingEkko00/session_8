@@ -14,7 +14,7 @@ public class Passenger {
     @Column(name = "ID")
     private int id;
 
-    @Column(name = "NAME")
+    @Column(name = "NAME",unique = true)
     private String name;
 
     @ManyToOne
@@ -24,7 +24,7 @@ public class Passenger {
     @Embedded
     private Address address;
 
-    @OneToMany(mappedBy = "passenger")
+    @OneToMany(mappedBy = "passenger", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Ticket> tickets = new ArrayList<>();
 
     public Passenger(String name) {

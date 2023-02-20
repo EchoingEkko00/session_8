@@ -30,7 +30,7 @@ public class Main {
         mike.setAirport(airport);
         airport.addPassenger(moukaila);
         airport.addPassenger(mike);
-/*
+
         OneWayTicket ticket1 = new OneWayTicket();
         ticket1.setNumber("AA1234");
         ticket1.setLatestDepartureDate(LocalDate.now());
@@ -48,17 +48,17 @@ public class Main {
         ticket3.setNumber("CC6767");
         ticket3.setLatestDepartureDate(LocalDate.now());
         ticket3.setPassenger(mike);
-        mike.addTicket(ticket3);*/
+        mike.addTicket(ticket3);
 
         em.persist(airport);
         em.persist(moukaila);
         em.persist(mike);
-/*
+
 
         em.persist(ticket1);
         em.persist(ticket2);
         em.persist(ticket3);
-*/
+
 
         em.getTransaction().commit();
 
