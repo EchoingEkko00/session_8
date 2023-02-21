@@ -7,3 +7,6 @@
 [submodule "mobile/420-456-al-h23-exercices-PureLeafGreen"]
 	path = mobile/420-456-al-h23-exercices-PureLeafGreen
 	url = git@github.com:420-andrelaurendeau/420-456-al-h23-exercices-PureLeafGreen.git
+[submodule "mobile/420-456-23-gr2-quiz"]
+	path = mobile/420-456-23-gr2-quiz
+	url = git@github.com:420-andrelaurendeau/420-456-23-gr2-quiz.git
