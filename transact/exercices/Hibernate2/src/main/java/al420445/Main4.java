@@ -13,24 +13,20 @@ public class Main4 {
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
 
-        var p1 = em.find(Passenger.class, 1);
 
-        //final Passenger cedric = new Passenger("Cedric");
-        //em.persist(cedric);
+        final Passenger cedric = new Passenger("Cedric");
+        em.persist(cedric);
 
         em.getTransaction().commit();
         em.close();
 
-
-        System.out.println(p1);
-
-
-
         em = emf.createEntityManager();
         em.getTransaction().begin();
 
+        var p1 = em.find(Passenger.class, 7);
+
         em.flush();
-        var airport = em.find(Airport.class, 2);
+        var airport = em.find(Airport.class, 1);
         p1.setAirport(airport);
 
         em.merge(p1);

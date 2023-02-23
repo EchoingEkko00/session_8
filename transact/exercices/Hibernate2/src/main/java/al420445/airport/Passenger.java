@@ -64,6 +64,7 @@ public class Passenger {
     }
 
     public void addTicket(Ticket ticket) {
+        ticket.setPassenger(this);
         tickets.add(ticket);
     }
 
