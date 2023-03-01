@@ -10,6 +10,3 @@
 [submodule "mobile/420-456-23-gr2-quiz"]
 	path = mobile/420-456-23-gr2-quiz
 	url = git@github.com:420-andrelaurendeau/420-456-23-gr2-quiz.git
-[submodule "transact/TP/TP2_transact_h23"]
-	path = transact/TP/TP2_transact_h23
-	url = git@github.com:PureLeafGreen/TP2_transact_h23.git
