@@ -16,3 +16,6 @@
 [submodule "transact/TP/tp2h23-PureLeafGreen"]
 	path = transact/TP/tp2h23-PureLeafGreen
 	url = git@github.com:cegep-Andre-Laurendeau1/tp2h23-PureLeafGreen.git
+[submodule "tp2h23-PureLeafGreen"]
+	path = tp2h23-PureLeafGreen
+	url = git@github.com:cegep-Andre-Laurendeau1/tp2h23-PureLeafGreen.git
