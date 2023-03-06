@@ -13,3 +13,6 @@
 [submodule "transact/TP/TP2_transact_h23"]
 	path = transact/TP/TP2_transact_h23
 	url = git@github.com:PureLeafGreen/TP2_transact_h23.git
+[submodule "transact/TP/tp2h23-PureLeafGreen"]
+	path = transact/TP/tp2h23-PureLeafGreen
+	url = git@github.com:cegep-Andre-Laurendeau1/tp2h23-PureLeafGreen.git
