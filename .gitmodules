@@ -16,12 +16,9 @@
 [submodule "transact/TP/tp2h23-PureLeafGreen"]
 	path = transact/TP/tp2h23-PureLeafGreen
 	url = git@github.com:cegep-Andre-Laurendeau1/tp2h23-PureLeafGreen.git
-<<<<<<< Updated upstream
 [submodule "mobile/420-456-al-h23-tp-intra-PureLeafGreen"]
 	path = mobile/420-456-al-h23-tp-intra-PureLeafGreen
 	url = git@github.com:420-andrelaurendeau/420-456-al-h23-tp-intra-PureLeafGreen.git
-=======
->>>>>>> Stashed changes
 [submodule "mobile/420-456-AL-23"]
 	path = mobile/420-456-AL-23
 	url = git@github.com:420-andrelaurendeau/420-456-AL-23.git
