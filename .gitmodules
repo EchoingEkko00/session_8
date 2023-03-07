@@ -19,3 +19,6 @@
 [submodule "mobile/420-456-AL-23"]
 	path = mobile/420-456-AL-23
 	url = git@github.com:420-andrelaurendeau/420-456-AL-23.git
+[submodule "mobile/420-456-al-h23-tp-intra-PureLeafGreen"]
+	path = mobile/420-456-al-h23-tp-intra-PureLeafGreen
+	url = git@github.com:420-andrelaurendeau/420-456-al-h23-tp-intra-PureLeafGreen.git
