@@ -19,9 +19,6 @@
 [submodule "mobile/420-456-AL-23"]
 	path = mobile/420-456-AL-23
 	url = git@github.com:420-andrelaurendeau/420-456-AL-23.git
-[submodule "mobile/420-456-al-h23-tp-intra-PureLeafGreen"]
-	path = mobile/420-456-al-h23-tp-intra-PureLeafGreen
-	url = git@github.com:420-andrelaurendeau/420-456-al-h23-tp-intra-PureLeafGreen.git
 [submodule "mobile/420-456-al-h23-minitp-2-PureLeafGreen"]
 	path = mobile/420-456-al-h23-minitp-2-PureLeafGreen
 	url = git@github.com:420-andrelaurendeau/420-456-al-h23-minitp-2-PureLeafGreen.git
@@ -31,3 +28,6 @@
 [submodule "transact/TP/tp3h23-PureLeafGreen"]
 	path = transact/TP/tp3h23-PureLeafGreen
 	url = git@github.com:cegep-Andre-Laurendeau1/tp3h23-PureLeafGreen.git
+[submodule "mobile/420-456-al-h23-tp-intra-PureLeafGreen"]
+	path = mobile/420-456-al-h23-tp-intra-PureLeafGreen
+	url = git@github.com:420-andrelaurendeau/420-456-al-h23-tp-intra-PureLeafGreen.git
