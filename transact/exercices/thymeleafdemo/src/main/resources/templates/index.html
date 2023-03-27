@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apprendre Thymeleaf</title>
+</head>
+<body>
+<h1 th:text="${pageTitle}"></h1>
+
+<ul>
+    <li th:each="user : ${users}">
+        <span th:text="${user}"></span>
+    </li>
+</ul>
+<ul>
+    <li>
+        <span th:text="${classData.getName()}"></span>
+    </li>
+    <li>
+        <span th:text="${classData.name}"></span>
+    </li>
+    <li>
+        <span th:text="${classData['name']}"></span>
+    </li>
+    <li>
+        <span th:text="${classData.countries.JP}"></span>
+    </li>
+    <li>
+        <span th:text="${classData.countries['CA']}"></span>
+    </li>
+</ul>
+<a th:href="@{/greeting?name=chris}">click on me</a>
+</body>
+</html>
