@@ -34,3 +34,6 @@
 [submodule "transact/intrah23-PureLeafGreen"]
 	path = transact/intrah23-PureLeafGreen
 	url = git@github.com:cegep-Andre-Laurendeau1/intrah23-PureLeafGreen.git
+[submodule "mobile/420-456-al-h23-minitp-3-PureLeafGreen"]
+	path = mobile/420-456-al-h23-minitp-3-PureLeafGreen
+	url = git@github.com:420-andrelaurendeau/420-456-al-h23-minitp-3-PureLeafGreen.git
