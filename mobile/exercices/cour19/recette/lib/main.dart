@@ -43,7 +43,7 @@ class MainApp extends StatelessWidget {
     return MultiProvider(providers: [
       ChangeNotifierProvider(create: (context) => recetteProvider()),
       ChangeNotifierProvider(create: (context) => TokenProvider()),
-    ], child: MonApplication());
+    ], child: const MonApplication());
   }
 }
 
@@ -57,16 +57,7 @@ class MonApplication extends StatelessWidget {
     return const MaterialApp(
       onGenerateRoute: RouteGenerator.generatedRoute,
       title: 'Les recettes',
-      home: HomePage(),
+      home: ExampleTokenPage(),
     );
-  }
-}
-
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const ExampleTokenPage();
   }
 }

@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:provider/provider.dart';
 import 'package:recette/pages/add_recettes.dart';
 
@@ -14,21 +12,31 @@ class ListeRecettePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final _recetteProvider = Provider.of<recetteProvider>(context);
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(
-            'Recette de CAL : ${_recetteProvider.recette.length} recettes'),
-        backgroundColor: Colors.brown,
-      ),
-      body: ListeRecette(),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          Navigator.pushNamed(context, AddRecettes.routeName);
-        },
-        child: const Icon(Icons.add),
-        backgroundColor: Colors.brown,
-      ),
+    return FutureBuilder(
+        future:
+            Provider.of<recetteProvider>(context, listen: false).loadRecettes(),
+        builder: (context, snapshot) {
+          if (snapshot.connectionState != ConnectionState.done)
+            return const Scaffold(body: Center(child: CircularProgressIndicator()));
+            return Scaffold(
+              appBar: AppBar(
+                title: Consumer<recetteProvider>(
+                    builder: (context, recetteProvider, child) {
+                  return Text(
+                      'Recette de CAL : ${recetteProvider.recette.length} recettes');
+                }),
+                backgroundColor: Colors.brown,
+              ),
+              body: ListeRecette(),
+              floatingActionButton: FloatingActionButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, AddRecettes.routeName);
+                },
+                child: const Icon(Icons.add),
+                backgroundColor: Colors.brown,
+              ),
+            );
+        }
     );
   }
 }

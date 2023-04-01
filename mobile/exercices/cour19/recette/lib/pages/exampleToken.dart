@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:recette/main.dart';
 import 'package:recette/pages/listeRecette.dart';
+
+import '../provider/tokenProvider.dart';
 
 class ExampleTokenPage extends StatefulWidget {
   const ExampleTokenPage({Key? key}) : super(key: key);
@@ -25,6 +28,7 @@ class _ExampleTokenPageState extends State<ExampleTokenPage> {
 
   @override
   Widget build(BuildContext context) {
+    final token = Provider.of<TokenProvider>(context);
     return Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -41,7 +45,9 @@ class _ExampleTokenPageState extends State<ExampleTokenPage> {
           Container(
             width: double.infinity,
             child: ElevatedButton(
+              style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.brown)),
                 onPressed: () {
+                  token.RecupereToken(username: _usernameController.text, password: _passwordController.text);
                   Navigator.pushNamed(context, ListeRecettePage.routeName);
                 },
                 child: Text("Get Token")),

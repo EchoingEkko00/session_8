@@ -11,11 +11,7 @@ class recetteProvider with ChangeNotifier {
 
   List<Recette> get recette => _recetteList;
 
-  recetteProvider() {
-    loadRecettes();
-  }
-
-  loadRecettes() async {
+  Future<void> loadRecettes() async {
     _recetteList.clear();
     final url = Uri.parse('https://cegep.fdtt.space/v1/recipes');
     try {
