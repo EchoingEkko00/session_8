@@ -37,3 +37,6 @@
 [submodule "mobile/420-456-al-h23-minitp-3-PureLeafGreen"]
 	path = mobile/420-456-al-h23-minitp-3-PureLeafGreen
 	url = git@github.com:420-andrelaurendeau/420-456-al-h23-minitp-3-PureLeafGreen.git
+[submodule "mobile/420-456-AL23-exercices"]
+	path = mobile/420-456-AL23-exercices
+	url = git@github.com:420-andrelaurendeau/420-456-AL23-exercices.git

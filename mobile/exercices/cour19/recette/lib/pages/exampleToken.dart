@@ -17,7 +17,6 @@ class ExampleTokenPage extends StatefulWidget {
 class _ExampleTokenPageState extends State<ExampleTokenPage> {
   final _usernameController = TextEditingController();
   final _passwordController = TextEditingController();
-  var _token = "";
 
   @override
   void dispose() {
@@ -28,7 +27,7 @@ class _ExampleTokenPageState extends State<ExampleTokenPage> {
 
   @override
   Widget build(BuildContext context) {
-    final token = Provider.of<TokenProvider>(context);
+    final token = Provider.of<TokenProvider>(context, listen: false);
     return Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -45,9 +44,12 @@ class _ExampleTokenPageState extends State<ExampleTokenPage> {
           Container(
             width: double.infinity,
             child: ElevatedButton(
-              style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.brown)),
+                style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all(Colors.brown)),
                 onPressed: () {
-                  token.RecupereToken(username: _usernameController.text, password: _passwordController.text);
+                  token.RecupereToken(
+                      username: _usernameController.text,
+                      password: _passwordController.text);
                   Navigator.pushNamed(context, ListeRecettePage.routeName);
                 },
                 child: Text("Get Token")),
