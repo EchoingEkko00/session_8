@@ -31,7 +31,6 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         title: "Mon application",
-        //home: PageDB(),
         home: MyDBCountPage(),
       )
     );

@@ -10,7 +10,6 @@ class MyDBCountPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final _database = Provider.of<ConfigDBProv>(context);
     print("Got Database as ${_database.database}");
-
     _database.database.then((_db) {
       _db.query(
         "myconfig",
@@ -27,13 +26,21 @@ class MyDBCountPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text("DB Count Page")),
       body: Center(
-        child: Text("Mon compte est FUTURE."),
+        child: FutureBuilder(
+          builder: (context, snapshot) {
+            return (snapshot.connectionState == ConnectionState.waiting)
+                ? CircularProgressIndicator()
+                : Text("Mon compte est ${snapshot.data}.");
+          },
+          future: _database.getStartCountFromDB(),
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(
           Icons.add,
         ),
         onPressed: () {
+          _database.incrementCountInDB();
           print("Nothing yet");
         },
       ),
