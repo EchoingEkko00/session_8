@@ -46,3 +46,6 @@
 [submodule "transact/TP/tp4-h23-PureLeafGreen"]
 	path = transact/TP/tp4-h23-PureLeafGreen
 	url = git@github.com:cegep-Andre-Laurendeau1/tp4-h23-PureLeafGreen.git
+[submodule "transact/semaine_10/javascriptdemo"]
+	path = transact/semaine_10/javascriptdemo
+	url = git@github.com:zeprof/javascriptdemo.git
