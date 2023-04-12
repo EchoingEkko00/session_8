@@ -43,3 +43,6 @@
 [submodule "mobile/420-456-al-h23-minitp-4-PureLeafGreen"]
 	path = mobile/420-456-al-h23-minitp-4-PureLeafGreen
 	url = git@github.com:420-andrelaurendeau/420-456-al-h23-minitp-4-PureLeafGreen.git
+[submodule "transact/TP/tp4-h23-PureLeafGreen"]
+	path = transact/TP/tp4-h23-PureLeafGreen
+	url = git@github.com:cegep-Andre-Laurendeau1/tp4-h23-PureLeafGreen.git
