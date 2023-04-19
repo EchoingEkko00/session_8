@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "708440783116",
+    "project_id": "chatalgr2",
+    "storage_bucket": "chatalgr2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708440783116:android:603518aa879c05c6aaf129",
+        "android_client_info": {
+          "package_name": "com.example.chatal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708440783116-sqbaokcagmg0ddrl7crm85ajm4f1gghe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7K6JIgrHJAfjn5zm6VQp5cpKAzsFsvUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708440783116-sqbaokcagmg0ddrl7crm85ajm4f1gghe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
