@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "509916028147",
+    "project_id": "pureleaf-first-firebase",
+    "storage_bucket": "pureleaf-first-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509916028147:android:84795e9b8b98d90fabeb86",
+        "android_client_info": {
+          "package_name": "com.example.firebase_personnelle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509916028147-tqbuori28turv8v729h12t4glqscur9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALEaWIxYtIBgslOqbx09zqtH6WyvAEAzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509916028147-tqbuori28turv8v729h12t4glqscur9t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "509916028147-or5n8plf8orto5u2b0qm5j8lp6t59jme.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebasePersonnelle"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

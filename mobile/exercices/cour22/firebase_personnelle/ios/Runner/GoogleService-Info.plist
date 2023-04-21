@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>509916028147-or5n8plf8orto5u2b0qm5j8lp6t59jme.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.509916028147-or5n8plf8orto5u2b0qm5j8lp6t59jme</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAow_Pmn0PRaBJ7kE_M1Uzgs4fkSCk3Lms</string>
+	<key>GCM_SENDER_ID</key>
+	<string>509916028147</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.firebasePersonnelle</string>
+	<key>PROJECT_ID</key>
+	<string>pureleaf-first-firebase</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pureleaf-first-firebase.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:509916028147:ios:b2f631dbdb65f946abeb86</string>
+</dict>
+</plist>

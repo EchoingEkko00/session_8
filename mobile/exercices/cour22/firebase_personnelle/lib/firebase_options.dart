@@ -44,41 +44,40 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCdtD_n0hYL0yD4EZSny5261nKCozoJF7k',
-    appId: '1:708440783116:web:d6d6161be2359d02aaf129',
-    messagingSenderId: '708440783116',
-    projectId: 'chatalgr2',
-    authDomain: 'chatalgr2.firebaseapp.com',
-    storageBucket: 'chatalgr2.appspot.com',
+    apiKey: 'AIzaSyD9CUCUpVQX_WFHrmgJnPGRfaN7jCO5qqc',
+    appId: '1:509916028147:web:4b6481232a5a6fdbabeb86',
+    messagingSenderId: '509916028147',
+    projectId: 'pureleaf-first-firebase',
+    authDomain: 'pureleaf-first-firebase.firebaseapp.com',
+    storageBucket: 'pureleaf-first-firebase.appspot.com',
+    measurementId: 'G-EK4W7QXRE8',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA7K6JIgrHJAfjn5zm6VQp5cpKAzsFsvUc',
-    appId: '1:708440783116:android:603518aa879c05c6aaf129',
-    messagingSenderId: '708440783116',
-    projectId: 'chatalgr2',
-    storageBucket: 'chatalgr2.appspot.com',
+    apiKey: 'AIzaSyALEaWIxYtIBgslOqbx09zqtH6WyvAEAzo',
+    appId: '1:509916028147:android:84795e9b8b98d90fabeb86',
+    messagingSenderId: '509916028147',
+    projectId: 'pureleaf-first-firebase',
+    storageBucket: 'pureleaf-first-firebase.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAIBmmYGTiLckJa4rwQzVTRvG67kVA0aVY',
-    appId: '1:708440783116:ios:b282173c866731d3aaf129',
-    messagingSenderId: '708440783116',
-    projectId: 'chatalgr2',
-    storageBucket: 'chatalgr2.appspot.com',
-    iosClientId:
-        '708440783116-ci0a4eem7a8k5pm258hsp4uaskc35i5g.apps.googleusercontent.com',
-    iosBundleId: 'com.example.chatal',
+    apiKey: 'AIzaSyAow_Pmn0PRaBJ7kE_M1Uzgs4fkSCk3Lms',
+    appId: '1:509916028147:ios:b2f631dbdb65f946abeb86',
+    messagingSenderId: '509916028147',
+    projectId: 'pureleaf-first-firebase',
+    storageBucket: 'pureleaf-first-firebase.appspot.com',
+    iosClientId: '509916028147-or5n8plf8orto5u2b0qm5j8lp6t59jme.apps.googleusercontent.com',
+    iosBundleId: 'com.example.firebasePersonnelle',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAIBmmYGTiLckJa4rwQzVTRvG67kVA0aVY',
-    appId: '1:708440783116:ios:b282173c866731d3aaf129',
-    messagingSenderId: '708440783116',
-    projectId: 'chatalgr2',
-    storageBucket: 'chatalgr2.appspot.com',
-    iosClientId:
-        '708440783116-ci0a4eem7a8k5pm258hsp4uaskc35i5g.apps.googleusercontent.com',
-    iosBundleId: 'com.example.chatal',
+    apiKey: 'AIzaSyAow_Pmn0PRaBJ7kE_M1Uzgs4fkSCk3Lms',
+    appId: '1:509916028147:ios:b2f631dbdb65f946abeb86',
+    messagingSenderId: '509916028147',
+    projectId: 'pureleaf-first-firebase',
+    storageBucket: 'pureleaf-first-firebase.appspot.com',
+    iosClientId: '509916028147-or5n8plf8orto5u2b0qm5j8lp6t59jme.apps.googleusercontent.com',
+    iosBundleId: 'com.example.firebasePersonnelle',
   );
 }
