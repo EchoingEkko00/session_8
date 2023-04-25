@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a381d9f1-e1c8-47c6-b884-533d8cef205a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../mobile/420-456-AL-23" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mobile/420-456-AL-23" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../mobile/exercices/cour_7/material-components-flutter-codelabs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mobile/exercices/cour_7/material-components-flutter-codelabs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../mobile/material-components-flutter-codelabs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mobile/material-components-flutter-codelabs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../semaine_10/javascriptdemo" beforeDir="false" afterPath="$PROJECT_DIR$/../../semaine_10/javascriptdemo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../semaine_11/react-task2_19_avril/react-task" beforeDir="false" afterPath="$PROJECT_DIR$/../../semaine_11/react-task2_19_avril/react-task" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ReactTodo" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactTodo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/lacouf/Documents/react/react-task",
+    "last_opened_file_path": "/home/pureleaf/Documents/session-8/transact/semaine_11/react-task2_19_avril",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
