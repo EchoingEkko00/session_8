@@ -52,3 +52,6 @@
 [submodule "mobile/420-456-al-h23-minitp-5-PureLeafGreen"]
 	path = mobile/420-456-al-h23-minitp-5-PureLeafGreen
 	url = git@github.com:420-andrelaurendeau/420-456-al-h23-minitp-5-PureLeafGreen.git
+[submodule "mobile/420-456-al-h23-tp-final-PureLeafGreen"]
+	path = mobile/420-456-al-h23-tp-final-PureLeafGreen
+	url = git@github.com:420-andrelaurendeau/420-456-al-h23-tp-final-PureLeafGreen.git
