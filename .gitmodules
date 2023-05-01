@@ -1,6 +1,3 @@
-[submodule "transact/TP/session_8"]
-	path = transact/TP/session_8
-	url = git@github.com:PureLeafGreen/session_8.git
 [submodule "transact/TP/TP1_transact_h23"]
 	path = transact/TP/TP1_transact_h23
 	url = git@github.com:PureLeafGreen/TP1_transact_h23.git
