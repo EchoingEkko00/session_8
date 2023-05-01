@@ -16,5 +16,4 @@ do
         git checkout main || git checkout master
         git pull
     fi
-    cd /home/pureleaf/Documents/session-8/
 done
