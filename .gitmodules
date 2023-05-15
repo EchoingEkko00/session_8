@@ -52,3 +52,6 @@
 [submodule "mobile/420-456-al-h23-tp-final-PureLeafGreen"]
 	path = mobile/420-456-al-h23-tp-final-PureLeafGreen
 	url = git@github.com:420-andrelaurendeau/420-456-al-h23-tp-final-PureLeafGreen.git
+[submodule "transact/examen/finalh23-PureLeafGreen"]
+	path = transact/examen/finalh23-PureLeafGreen
+	url = git@github.com:cegep-Andre-Laurendeau1/finalh23-PureLeafGreen.git
